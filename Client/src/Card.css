@@ -1,0 +1,41 @@
+.Recipe-Container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .card strong {
+    color: #000;
+  }
+  
